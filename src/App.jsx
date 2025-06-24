@@ -26,7 +26,7 @@ function App() {
         onChange={(e) => setSearchTerm(e.target.value)}
         placeholder="Search for items..."
       />
-       <div className='w-screen-1/2 h-1 overflow-y-auto scrollbar-hide'>
+       <div className='w-full max-h-[80vh] overflow-y-auto px-4 scrollbar-hide'>
         <Searchpage searchTerm={searchTerm} />
       </div>
     

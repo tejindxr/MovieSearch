@@ -5,7 +5,8 @@ const Searchpage = ({ searchTerm }) => {
   const [movie , setmovie] = useState([]);
   const [loading , setloading] = useState(false);
 
-  const API_KEY = "53b373cf"
+ // const API_KEY = "53b373cf"
+  const API_KEY = "8541a53b"
 
   useEffect (()=>{
 
@@ -61,7 +62,7 @@ const Searchpage = ({ searchTerm }) => {
 
           </div>
       ))}
-      
+       
     </div>
   );
 };
