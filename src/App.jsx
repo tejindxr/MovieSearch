@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="  overflow-hidden">
      <div>
-        <h1 className="text-6xl Font pb-6" 
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl Font pb-6" 
             style={{
             fontFamily: "Honk",
             fontVariationSettings: `"MORF" 25, "SHLN" 60`,

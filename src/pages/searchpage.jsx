@@ -5,8 +5,8 @@ const Searchpage = ({ searchTerm }) => {
   const [movie , setmovie] = useState([]);
   const [loading , setloading] = useState(false);
 
- // const API_KEY = "53b373cf"
-  const API_KEY = "8541a53b"
+ const API_KEY = "53b373cf"
+ // const API_KEY = "8541a53b"
 
   useEffect (()=>{
 
@@ -36,7 +36,7 @@ const Searchpage = ({ searchTerm }) => {
 
 
   return (
-       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-8 px-4">
+       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8 px-4">
       {loading && <p className="text-white text-xl col-span-full">Loading...</p>}
 
 
